@@ -1,0 +1,741 @@
+.signup-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-dash {
+    height: 75vh;
+    width: 85%;
+    border-radius: 5px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 17px;
+
+}
+
+.signup-dash-left {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-dash-left img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.signup-dash-right {
+    height: 75vh;
+    width: 50%;
+    background-color: rgb(195, 0, 166);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.signup-dash-right input {
+
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.chhosefile {
+    border-radius: 5px;
+    display: none;
+}
+
+.signup-btn {
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(0, 24, 97), red);
+    outline: none;
+    border: none;
+    color: white;
+    height: 30px;
+    font-size: 25px;
+}
+
+.error-msg {
+    color: yellow;
+}
+
+.botom-nav {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.botom-nav img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+.botom-nav button {
+    padding: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+/* -----------Dashboard------------ */
+.dashboad-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.main-containt {
+    width: 100%;
+    height: 100vh;
+}
+
+.side-nav {
+    width: 20%;
+    background-color: rgb(13, 8, 177);
+}
+
+.profile-box {
+    height: 30vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic img {
+    padding: 10px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.profile-text {
+    color: white;
+    font-size: 20px;
+}
+
+.profile-text button {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.profile-text button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 220, 59);
+}
+
+.link-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.link-bar {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.link-bar:hover {
+    background-color: pink
+}
+
+.link-Active-link {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(230, 30, 180);
+}
+
+/* -----------Add-Course------------ */
+.add-Course-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.add-Course-form {
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+    border-top: 10px solid royalblue;
+
+}
+
+.add-Course-form input {
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.add-Course-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(230, 30, 180);
+    color: white;
+    cursor: pointer;
+}
+
+.ql-container {
+    border-radius: 5px;
+}
+
+.ql-toolbar {
+    background-color: rgb(203, 203, 248);
+    border-radius: 5px;
+}
+
+.thamb-pic {
+    display: none;
+}
+
+.thamb-nail {
+    height: 100px;
+    border-radius: 2px;
+}
+
+.thmab-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+/* ----------my-course */
+.mycourse-wrapper {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 50px; */
+    gap: 100px;
+    margin-top: 40px;
+    overflow-y: scroll;
+    margin-left: 50px;
+}
+
+.course-box {
+
+    width: 420px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px slategrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-box:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.course-box img {
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    /* margin-left: 30px; */
+    padding: 10px;
+}
+
+.course-box h2 {
+    font-size: 20px bold;
+    color: blue;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.course-box p {
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.discount-color {
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ---------course-details-wrapper--------- */
+.course-details-wrapper {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 100%;
+    height: 100vh;
+}
+
+.course-details {
+    width: 100;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.cd-left-heading {
+    width: 70%;
+}
+
+.cd-right-heading {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.cd-right-heading img {
+    height: 250px;
+    margin-left: 100px;
+
+}
+
+.right-descount {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course-left-btn {
+    gap: 20px;
+}
+
+.course-left-btn button {
+    border: none;
+    outline: none;
+    gap: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.edit-course {
+    background-color: rgb(48, 19, 235);
+    color: #000;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.all-students {
+    background-color: green;
+}
+
+.delete-course {
+    background-color: red;
+    color: #333;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.manage-content {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.Description-box {
+    min-height: 60vh;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    overflow-y: scroll;
+    margin-bottom: 60px;
+}
+
+.decription-heading {
+    margin-left: 20px;
+
+    font-size: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.description-details {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #504b4b;
+}
+
+.discount-price-box {
+    width: 100%;
+    margin-top: 15px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.price {
+    background-color: white;
+    width: 20%;
+    padding-left: 10px;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ----------contents-wrapper------------------- */
+
+.contents-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.content-header button {
+    border: none;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.content-dash {
+    height: 70vh;
+    width: 95%;
+    margin-left: 2.5%;
+    overflow-y: scroll;
+    gap: 20px;
+}
+
+.video-contents {
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.video-contents img {
+    width: 10%;
+}
+
+.title-drecription {
+    width: 70%;
+}
+
+.edit-delete {
+    width: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.edit-delete button {
+    padding: 10px;
+    gap: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.submit-close {
+    display: flex;
+    width: 50%;
+    gap: 40px;
+
+}
+
+/* ---------------students-list-wrapper-------------------------- */
+
+.student-list-wrapper {
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+    margin: 20px;
+
+
+}
+
+.search-box {
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+}
+
+.sl-box {
+
+    height: 70vh;
+    margin-top: 20px;
+    overflow-y: scroll;
+    padding: 10px;
+
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #170983;
+    color: white;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+tbody tr:hover
+{
+    cursor: pointer;
+    background-color: white;
+}
+
+table img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.sl-edit{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #810c5a;
+    border: none;
+    color:white;
+    font-size: 20px;
+}
+.sl-view{
+     padding: 15px;
+    border-radius: 5px;
+    background-color: #5d44ff;
+    border: none;
+    color:white;
+      font-size: 20px;
+}
+.sl-delete
+{
+     padding: 15px;
+    border-radius: 5px;
+    background-color: #cc1313;
+    border: none;
+    color: white;
+      font-size: 20px;
+}
+/* --------------Students-Profile---------------------------------- */
+
+.dp-wrappwer{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.sp-header{
+    background-color: rgb(246, 242, 235);
+    display: flex;
+    height: 35vh;
+    gap: 10%;
+    width: 100%;
+  justify-content: flex-start;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px brown;
+}
+.sp-header p{
+    font-size: 15px;
+}
+.sp-header img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+ 
+.sp-text-AREA{
+    display: flex;
+    flex-direction: column;
+}
+.adress-education-box{
+    background-color: rgb(248, 239, 222);
+    display: flex;
+    height: 40vh;
+    gap: 10%;
+    width: 100%;
+  justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px brown; 
+}
+.adress-education-box p{
+font-size: 15px;
+}
+/* -----------------------home----------------------- */
+ .home-wrapper{
+    height: 100vh;
+    width: 100%;
+ }
+ .home-header{
+    width: 100%;
+    height: 12vh;
+   
+    display: flex;
+    align-items: center;
+    
+ }
+ .home-header img{
+    height: 100px;
+    width: 100px;
+    padding-left: 20px;
+    border-radius: 20px;
+ }
+ .box-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+    width: 30%;
+    background-color: orange;
+     
+ }
+ .box-2{
+    display: flex;
+  gap: 20px;
+    height: 150px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    
+ }
+ .box-3{
+    display: flex;
+    align-items: center;
+     gap: 20px;
+    height: 150px;
+    width: 30%;
+    background-color: rgb(0, 159, 19);
+ }
+ .course h1{
+     margin-top: 10px;
+     
+ }
+ .home-box{
+    height: 70vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+ }
+ .chat-graph{
+    width: 63%;
+    height: 70vh;
+    background-color: white;
+ }
+ .home-content{
+    width: 35%;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .student-hm{
+    height: 48%;
+    background-color: white;
+    gap: 20px;
+ }
+.course-hm{
+    margin-top: 5px;
+    background-color: white;
+    height: 48%;
+    overflow: hidden;
+}
